@@ -15,19 +15,19 @@
 // Total: $30
 // ===================================
 
-// document.write("<h2> 1. 🛒 Online Shopping Checkout </h2> " + "</br> ");
-// let productName = prompt("Enter product name : ");
-// let productPrice = +prompt("Enter product price : ");
-// let productQuantity = +prompt("Enter Quantity of product : ");
+document.write("<h2> 1. 🛒 Online Shopping Checkout </h2> " + "</br> ");
+let productName = prompt("Enter product name : ");
+let productPrice = +prompt("Enter product price : ");
+let productQuantity = +prompt("Enter Quantity of product : ");
 
-// let totalPrice = productPrice * productQuantity;
+let totalPrice = productPrice * productQuantity;
 
-// document.write("<h3>========== SHOPPING BILL ==========</h3>" + " </br>");
-// document.write("Product : " + productName + "</br>");
-// document.write("Price : $" + productPrice + "</br>");
-// document.write("Quantity : " + productQuantity + "</br>");
-// document.write("Total : $" + totalPrice + "</br> ");
-// document.write("<h3> ===================================</h3>" + "</br> </br>");
+document.write("<h3>========== SHOPPING BILL ==========</h3>" + " </br>");
+document.write("Product : " + productName + "</br>");
+document.write("Price : $" + productPrice + "</br>");
+document.write("Quantity : " + productQuantity + "</br>");
+document.write("Total : $" + totalPrice + "</br> ");
+document.write("<h3> ===================================</h3>" + "</br> </br>");
 
 
 // Question No 02 
@@ -46,41 +46,41 @@
 // Result: Pass
 
 
-// document.write(" <h2> 2. 🎓 Student Result System </h2> "+"</br>");
+document.write(" <h2> 2. 🎓 Student Result System </h2> "+"</br>");
 
-// let studentName = prompt("Enter your name : ");
-// let totalMarks = +prompt("Enter total marks : ");
-// let obtainedMarks = +prompt("Enter Obtained Marks : ");
-// let percentage = (( obtainedMarks / totalMarks ) * 100).toFixed(0);
-// let grade;
-// let result ;
-// if( percentage >= 90 && percentage <= 100 ) {
-//      grade = "A+";
-//      result = "Pass";
-// }else if( percentage >= 80 && percentage <= 90 ){
-//      grade = "A";
-//      result = "Pass";
-// }else if( percentage >= 70 && percentage <= 80 ){
-//      grade = "B";
-//      result = "Pass";
-// }else if( percentage >= 60 && percentage <= 70 ){
-//      grade = "C";
-//      result = "Pass";
-// }else if( percentage >= 50 && percentage <= 60 ){
-//      grade = "D";
-//      result = "Pass";
-// }else {
-//      grade = "F";
-//      result = "F";
-// }
+let studentName = prompt("Enter your name : ");
+let totalMarks = +prompt("Enter total marks : ");
+let obtainedMarks = +prompt("Enter Obtained Marks : ");
+let percentage = (( obtainedMarks / totalMarks ) * 100).toFixed(0);
+let grade;
+let result ;
+if( percentage >= 90 && percentage <= 100 ) {
+     grade = "A+";
+     result = "Pass";
+}else if( percentage >= 80 && percentage <= 90 ){
+     grade = "A";
+     result = "Pass";
+}else if( percentage >= 70 && percentage <= 80 ){
+     grade = "B";
+     result = "Pass";
+}else if( percentage >= 60 && percentage <= 70 ){
+     grade = "C";
+     result = "Pass";
+}else if( percentage >= 50 && percentage <= 60 ){
+     grade = "D";
+     result = "Pass";
+}else {
+     grade = "F";
+     result = "F";
+}
 
 
-// document.write(" <h3>========== STUDENT EXAM RESULT CARD ==========</h3> "+"</br>");
-// document.write("Student : " + studentName + "</br>");
-// document.write("Percentage : " + percentage + "</br>");
-// document.write("Grade : " + grade + "</br>");
-// document.write("Result : " + result + "</br>");
-// document.write(" <h3>================================================</h3> "+"</br> </br>");
+document.write(" <h3>========== STUDENT EXAM RESULT CARD ==========</h3> "+"</br>");
+document.write("Student : " + studentName + "</br>");
+document.write("Percentage : " + percentage + "</br>");
+document.write("Grade : " + grade + "</br>");
+document.write("Result : " + result + "</br>");
+document.write(" <h3>================================================</h3> "+"</br> </br>");
 
 
 // 3. 🏦 Bank Withdrawal System
@@ -94,28 +94,28 @@
 // Transaction Failed
 // Reason: Insufficient Balance
 
-// document.write(" <h2> 3. 🏦 Bank Withdrawal System  </h2> " + "</br>");
+document.write(" <h2> 3. 🏦 Bank Withdrawal System  </h2> " + "</br>");
 
-// let accountHolderName = prompt("Enter Account holder name : ");
-// let currentBalance = +prompt("Enter current balance : ");
-// let withdrawAmount = +prompt("Enter Withdraw Amount : ");
-// let remainingBalance = 0;
+let accountHolderName = prompt("Enter Account holder name : ");
+let currentBalance = +prompt("Enter current balance : ");
+let withdrawAmount = +prompt("Enter Withdraw Amount : ");
+let remainingBalance = 0;
 
-// document.write(" <h3>========== BANK TRANSACTION RECEIPT ==========</h3> "+"</br>");
+document.write(" <h3>========== BANK TRANSACTION RECEIPT ==========</h3> "+"</br>");
 
-//    document.write("Account Holder Name : "+ accountHolderName +"</br>");
-//    document.write("Current Balance : " + currentBalance + "</br>");
+   document.write("Account Holder Name : "+ accountHolderName +"</br>");
+   document.write("Current Balance : " + currentBalance + "</br>");
 
-// if(withdrawAmount <= currentBalance && withdrawAmount > 0){
-//    remainingBalance = currentBalance - withdrawAmount;
-//    document.write("Withdrawal Amount : " + withdrawAmount + "</br>");
-//    document.write("Remaining Balance : " + remainingBalance +  "</br>");
-// }else {
-//     document.write("Transaction Failed "+"</br>");
-//     document.write("Reason : Insufficient Balance !" +"</br>");
-// }
+if(withdrawAmount <= currentBalance && withdrawAmount > 0){
+   remainingBalance = currentBalance - withdrawAmount;
+   document.write("Withdrawal Amount : " + withdrawAmount + "</br>");
+   document.write("Remaining Balance : " + remainingBalance +  "</br>");
+}else {
+    document.write("Transaction Failed "+"</br>");
+    document.write("Reason : Insufficient Balance !" +"</br>");
+}
 
-// document.write(" <h3>================================================</h3> "+"</br> </br>");
+document.write(" <h3>================================================</h3> "+"</br> </br>");
 
 
 // Question No 04 
@@ -134,24 +134,24 @@
 // Reason: Minimum age is 18
 
 
-//  document.write(" <h2> 4. 🚗 Driving License Eligibility  </h2> " + "</br>");
+ document.write(" <h2> 4. 🚗 Driving License Eligibility  </h2> " + "</br>");
 
-//  let userName = prompt("Enter your name : ");
-//  let userAge = prompt("Enter your age : ",10);
+ let userName = prompt("Enter your name : ");
+ let userAge = prompt("Enter your age : ",10);
 
-//   document.write(" <h3>========== DRIVING LICENSE ELIGIBILITY CARD ==========</h3> "+"</br>");
+  document.write(" <h3>========== DRIVING LICENSE ELIGIBILITY CARD ==========</h3> "+"</br>");
 
-//     document.write("Name :  "+ userName + "</br>");
-//     document.write("Age :   "+ userAge + "</br>");
+    document.write("Name :  "+ userName + "</br>");
+    document.write("Age :   "+ userAge + "</br>");
 
-//   if(userAge >= 18){
-//     document.write("Status : " + "Eligible for driving license" +"</br>");   
-//   } else {
-//     document.write("Status : "+ "Not Eligible" +"</br>");
-//     document.write("Reason : "+ "Minimum age is 18" +"</br>");
-//   }
+  if(userAge >= 18){
+    document.write("Status : " + "Eligible for driving license" +"</br>");   
+  } else {
+    document.write("Status : "+ "Not Eligible" +"</br>");
+    document.write("Reason : "+ "Minimum age is 18" +"</br>");
+  }
 
-//   document.write(" <h3>======================================================</h3> "+"</br> </br>");
+  document.write(" <h3>======================================================</h3> "+"</br> </br>");
 
 
 // Question No 05 
@@ -171,22 +171,22 @@
 // Total Amount: $150
 // ===================================
 
-//  document.write(" <h2> 5. 🏨 Hotel Room Booking  </h2> " + "</br>");
+ document.write(" <h2> 5. 🏨 Hotel Room Booking  </h2> " + "</br>");
 
-//  let customerName = prompt("Enter your name : ");
-//  let numberOfNights = +prompt("Enter number of nights you stay here in hotel : ");
-//  let pricePerNight = +prompt("Enter price per night you stay here in hotel : ");
-//  let totalBill = numberOfNights * pricePerNight;
+ let customerName = prompt("Enter your name : ");
+ let numberOfNights = +prompt("Enter number of nights you stay here in hotel : ");
+ let pricePerNight = +prompt("Enter price per night you stay here in hotel : ");
+ let totalBill = numberOfNights * pricePerNight;
 
 
-//  document.write(" <h3>========== HOTEL ROOM BOOKING RECEIPT ==========</h3> "+"</br>");
+ document.write(" <h3>========== HOTEL ROOM BOOKING RECEIPT ==========</h3> "+"</br>");
 
-//  document.write("Guest : "+ customerName +"</br>");
-//  document.write("Nights : "+ numberOfNights +"</br>");
-//  document.write("Price Per Night : $"+ pricePerNight +"</br>");
-//  document.write("Total Amount : $"+totalBill);
+ document.write("Guest : "+ customerName +"</br>");
+ document.write("Nights : "+ numberOfNights +"</br>");
+ document.write("Price Per Night : $"+ pricePerNight +"</br>");
+ document.write("Total Amount : $"+totalBill);
 
-//  document.write(" <h3>===================================================</h3> "+"</br> </br>");
+ document.write(" <h3>===================================================</h3> "+"</br> </br>");
 
 
 
@@ -204,27 +204,27 @@
 // Invalid Username or Password
 
 
-//   document.write(" <h2> 6. 🔐 Employee Login System  </h2> " + "</br>");
+  document.write(" <h2> 6. 🔐 Employee Login System  </h2> " + "</br>");
 
-//   const correctUsername = "exampledemo@gmail.com";
-//   const correctPassword = "Demo@123"
+  const correctUsername = "exampledemo@gmail.com";
+  const correctPassword = "Demo@123"
 
-//   const username = prompt("Enter username : ");
-//   const password = prompt("Enter password : ");
+  const username = prompt("Enter username : ");
+  const password = prompt("Enter password : ");
 
-//    document.write(" <h3>=========== Employee Login System ===========</h3> "+"</br>");
+   document.write(" <h3>=========== Employee Login System ===========</h3> "+"</br>");
 
-//    if(username !== correctUsername && password !== correctPassword){
-//         document.write("Invalid Username and Password!" + "</br>")
-//    } else if(username !== correctUsername){
-//         document.write("Invalid Username!" + "</br>");
-//    } else if(password !== correctPassword){
-//         document.write("Invalid Password!"+"</br>")
-//    } else {
-//         document.write("Welcome to Employee Dashboard" + "</br>");
-//         document.write("Login Status : Successful"+"</br>")
-//    }
-//    document.write(" <h3>=========================================</h3> "+"</br> </br>");
+   if(username !== correctUsername && password !== correctPassword){
+        document.write("Invalid Username and Password!" + "</br>")
+   } else if(username !== correctUsername){
+        document.write("Invalid Username!" + "</br>");
+   } else if(password !== correctPassword){
+        document.write("Invalid Password!"+"</br>")
+   } else {
+        document.write("Welcome to Employee Dashboard" + "</br>");
+        document.write("Login Status : Successful"+"</br>")
+   }
+   document.write(" <h3>=========================================</h3> "+"</br> </br>");
 
 
 
@@ -239,31 +239,31 @@
 // Display the order amount, delivery charges, and final amount.
 
 
-// document.write(" <h2> 7. 📦 Delivery Charges System   </h2> " + "</br>");
+document.write(" <h2> 7. 📦 Delivery Charges System   </h2> " + "</br>");
 
-// let orderAmount = +prompt("Enter order amount : ");
-// let deliveryCharges = 0;
-// let dollarSign = "$";
+let orderAmount = +prompt("Enter order amount : ");
+let deliveryCharges = 0;
+let dollarSign = "$";
 
-// if(orderAmount >= 100){
-//    deliveryCharges = 0;
-// } else if (orderAmount >= 50 && orderAmount <= 99){
-//      deliveryCharges = 5;
-// } else if(orderAmount < 50){
-//      deliveryCharges = 10;
-// }
+if(orderAmount >= 100){
+   deliveryCharges = 0;
+} else if (orderAmount >= 50 && orderAmount <= 99){
+     deliveryCharges = 5;
+} else if(orderAmount < 50){
+     deliveryCharges = 10;
+}
 
-// const finalAmount = orderAmount + deliveryCharges;
+const finalAmount = orderAmount + deliveryCharges;
 
-// let deliveryDisplay = deliveryCharges === 0 ? "Free Delivery" : "$" + deliveryCharges ;
+let deliveryDisplay = deliveryCharges === 0 ? "Free Delivery" : "$" + deliveryCharges ;
 
-// document.write(" <h3>=========== Online Delivery Charge Calculator  ===========</h3> "+"</br>");
+document.write(" <h3>=========== Online Delivery Charge Calculator  ===========</h3> "+"</br>");
 
-// document.write("The Order Amount is : "+ dollarSign +orderAmount  +"<br>");
-// document.write("The Delivery Charges are : "+ deliveryDisplay+"<br>");
-// document.write("The Final Amount is : "+ dollarSign + finalAmount +"<br>")
+document.write("The Order Amount is : "+ dollarSign +orderAmount  +"<br>");
+document.write("The Delivery Charges are : "+ deliveryDisplay+"<br>");
+document.write("The Final Amount is : "+ dollarSign + finalAmount +"<br>")
 
-// document.write(" <h3>=================================================</h3> "+"</br> </br>");
+document.write(" <h3>=================================================</h3> "+"</br> </br>");
 
 
 
@@ -282,18 +282,18 @@
 // Total Students: 10
 
 
-//  document.write(" <h2> 8. 🏫 School Attendance System   </h2> " + "</br>");
+ document.write(" <h2> 8. 🏫 School Attendance System   </h2> " + "</br>");
 
-//  document.write(" <h3>=========== Class Attendance ===========</h3> "+"</br>");
+ document.write(" <h3>=========== Class Attendance ===========</h3> "+"</br>");
 
-//  const studentNames = ["Ahmed" , "Muhammad" , "Sara" , "Zainab" , "Duaa" , "Iqra" , "Kainaat" , "Saheer" , "Sartaj" , "Sultan"];
+ const studentNames = ["Ahmed" , "Muhammad" , "Sara" , "Zainab" , "Duaa" , "Iqra" , "Kainaat" , "Saheer" , "Sartaj" , "Sultan"];
 
-//  for(let i = 0 ; i < studentNames.length ; i++){
-//      document.write( ( i+1 ) + ".&emsp; " + studentNames[i] + "<br>");
-//  }
+ for(let i = 0 ; i < studentNames.length ; i++){
+     document.write( ( i+1 ) + ".&emsp; " + studentNames[i] + "<br>");
+ }
 
-//  document.write(" <h3>==========================================</h3>");
-//  document.write("Total Students : "+ studentNames.length)
+ document.write(" <h3>==========================================</h3>");
+ document.write("Total Students : "+ studentNames.length)
 
 
 
@@ -317,23 +317,23 @@
 
 
 
-//  document.write(" <h2>  9. 📱 Mobile Store Inventory </h2> " + "</br>");
+ document.write(" <h2>  9. 📱 Mobile Store Inventory </h2> " + "</br>");
 
-//  const mobileNames = ["iPhone 15" , "Samsung S24" , "Google Pixel 9" , "OnePlus 12" , "Xiaomi"];
+ const mobileNames = ["iPhone 15" , "Samsung S24" , "Google Pixel 9" , "OnePlus 12" , "Xiaomi"];
 
-//  mobileNames.push("Infinix Hot 9 Play");
+ mobileNames.push("Infinix Hot 9 Play");
 
-//  mobileNames.splice(4,1);
+ mobileNames.splice(4,1);
 
-//  document.write(" <h3>=========== Mobile Inventory ===========</h3> "+"</br>");
+ document.write(" <h3>=========== Mobile Inventory ===========</h3> "+"</br>");
   
-//  for(let i = 0 ; i < mobileNames.length ; i++){
-//      document.write( ( i + 1 ) + ".&emsp; " + mobileNames[i] + "<br>")
-//  }
-//  document.write("<br>" + "Total Mobiles : " + mobileNames.length);
+ for(let i = 0 ; i < mobileNames.length ; i++){
+     document.write( ( i + 1 ) + ".&emsp; " + mobileNames[i] + "<br>")
+ }
+ document.write("<br>" + "Total Mobiles : " + mobileNames.length);
 
 
-//  document.write(" <h3>==========================================</h3>");
+ document.write(" <h3>==========================================</h3>");
 
 
 
